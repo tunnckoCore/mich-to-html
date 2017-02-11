@@ -1,0 +1,86 @@
+{
+  "name": "mich-to-html",
+  "version": "0.1.0",
+  "description": "Tiny and naive implementation of rendering HAST-compliant virtual dom trees to HTML string, just in ~420 bytes.",
+  "repository": "tunnckoCore/mich-to-html",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
+  "precommit.silent": true,
+  "main": "dist/mich-to-html.min.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix --verbose",
+    "test": "npm-run-all -s test:*",
+    "test:api": "nyc --reporter lcov node test.js",
+    "test:report": "nyc report",
+    "prerelease": "npm test",
+    "release": "standard-version --sign --no-verify",
+    "git": "npm-run-all -s git:*",
+    "git:add": "git add --all",
+    "git:cz": "git-cz",
+    "commit": "npm-run-all -s test build git",
+    "build": "npm-run-all -s build:*",
+    "build:clean": "rimraf dist",
+    "build:bundle": "rollup -c",
+    "build:show": "ls -al dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^2.9.2",
+    "cz-conventional-changelog": "^1.2.0",
+    "mich-h": "^0.3.1",
+    "mukla": "^0.4.8",
+    "npm-run-all": "^4.0.1",
+    "nyc": "^10.0.0",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^2.5.4",
+    "rollup": "^0.41.4",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-plugin-zopfli": "^1.0.2",
+    "standard": "^8.6.0",
+    "standard-version": "^4.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "verb": {
+    "run": true,
+    "toc": {
+      "render": true,
+      "method": "preWrite",
+      "maxdepth": 3,
+      "footer": ""
+    },
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "always-done",
+        "minibase",
+        "try-catch-core"
+      ],
+      "highlight": "always-done"
+    },
+    "lint": {
+      "reflinks": true
+    }
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=2"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "statements": 0,
+    "functions": 0,
+    "branches": 0,
+    "lines": 0
+  }
+}
