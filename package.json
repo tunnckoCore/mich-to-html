@@ -42,7 +42,27 @@
   "files": [
     "dist/"
   ],
-  "keywords": [],
+  "keywords": [
+    "dom",
+    "hast",
+    "html",
+    "hyperscript",
+    "mich",
+    "render",
+    "render-to-string",
+    "rendering",
+    "server",
+    "server-side-rendering",
+    "side",
+    "ssr",
+    "str",
+    "string",
+    "to",
+    "to-html",
+    "to-string",
+    "virtual",
+    "virtual-dom"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
