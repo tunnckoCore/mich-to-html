@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/tunnckocore/mich-to-html/compare/v0.1.1...v0.1.2) (2017-02-11)
+
+
+### Bug Fixes
+
+* **package:** force 100% coverage of nyc ([998dc43](https://github.com/tunnckocore/mich-to-html/commit/998dc43))
+* **readme:** update jsx example ([c37b53e](https://github.com/tunnckocore/mich-to-html/commit/c37b53e))
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2017-02-11)
 
