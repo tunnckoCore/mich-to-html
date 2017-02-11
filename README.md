@@ -49,7 +49,6 @@ const tree = h('h1.big#hero.header', 'Hello World')
 const html = toHtml(tree)
 console.log(html)
 // => '<h1 id="hero" class="big header">Hello World</h1>'
-
 ```
 
 Or, using the JSX syntax and adding the [JSX Pragma](https://jasonformat.com/wtf-is-jsx/) somewhere at the top
@@ -60,10 +59,9 @@ const h = require('mich-h')
 const toHtml = require('mich-to-html')
 
 const hi = 'Hello World'
-const tree = <h1 id="hero" className="big header">{hi}<h1>
+const tree = <h1 id="hero" className="big header">{hi}</h1>
 
-const html = toHtml(tree)
-console.log(html)
+console.log(toHtml(tree))
 // => '<h1 id="hero" class="big header">Hello World</h1>'
 ```
 
