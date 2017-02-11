@@ -9,7 +9,7 @@
 [![codecov][coverage-img]][coverage-url] 
 [![dependency status][david-img]][david-url]
 
-You might also be interested in [always-done](https://github.com/hybridables/always-done#readme).
+_You might also be interested in [mich-h][] - virtual dom builder in just ~500 bytes, compatible with [hyperscript][]._
 
 ## Table of Contents
 - [Install](#install)
@@ -71,6 +71,12 @@ TODO
 
 ## Related
 - [always-done](https://www.npmjs.com/package/always-done): Handle completion and errors with elegance! Support for streams, callbacks, promises, child processes, async/await and sync functions. A drop-in replacement… [more](https://github.com/hybridables/always-done#readme) | [homepage](https://github.com/hybridables/always-done#readme "Handle completion and errors with elegance! Support for streams, callbacks, promises, child processes, async/await and sync functions. A drop-in replacement for [async-done][] - pass 100% of its tests plus more")
+- [gibon](https://www.npmjs.com/package/gibon): Functional client-side router in ~570 bytes, built on HTML5 History API | [homepage](https://github.com/tunnckocore/gibon#readme "Functional client-side router in ~570 bytes, built on HTML5 History API")
+- [hastscript](https://www.npmjs.com/package/hastscript): Hyperscript compatible DSL for creating virtual HAST trees | [homepage](https://github.com/wooorm/hastscript#readme "Hyperscript compatible DSL for creating virtual HAST trees")
+- [hyperapp](https://www.npmjs.com/package/hyperapp): 1kb JavaScript library for building modern UI applications | [homepage](https://github.com/hyperapp/hyperapp#readme "1kb JavaScript library for building modern UI applications")
+- [hyperscript](https://www.npmjs.com/package/hyperscript): Create HyperText with JavaScript, on client or server. | [homepage](https://github.com/dominictarr/hyperscript "Create HyperText with JavaScript, on client or server.")
+- [mich-h](https://www.npmjs.com/package/mich-h): Create HAST-compliant virtual trees of HTML using [hyperscript][] compatible syntax, just in ~550 bytes. | [homepage](https://github.com/tunnckocore/mich-h#readme "Create HAST-compliant virtual trees of HTML using [hyperscript][] compatible syntax, just in ~550 bytes.")
+- [mich-parse-selector](https://www.npmjs.com/package/mich-parse-selector): Tiny parser for simple CSS selectors, just in ~300 bytes.  Pretty similar to what is done in [hyperscript][] | [homepage](https://github.com/tunnckocore/mich-parse-selector#readme "Tiny parser for simple CSS selectors, just in ~300 bytes.  Pretty similar to what is done in [hyperscript][]")
 - [minibase](https://www.npmjs.com/package/minibase): Minimalist alternative for Base. Build complex APIs with small units called plugins. Works well with most of the already existing… [more](https://github.com/node-minibase/minibase#readme) | [homepage](https://github.com/node-minibase/minibase#readme "Minimalist alternative for Base. Build complex APIs with small units called plugins. Works well with most of the already existing [base][] plugins.")
 - [try-catch-core](https://www.npmjs.com/package/try-catch-core): Low-level package to handle completion and errors of sync or asynchronous functions, using [once][] and [dezalgo][] libs. Useful for and… [more](https://github.com/hybridables/try-catch-core#readme) | [homepage](https://github.com/hybridables/try-catch-core#readme "Low-level package to handle completion and errors of sync or asynchronous functions, using [once][] and [dezalgo][] libs. Useful for and used in higher-level libs such as [always-done][] to handle completion of anything.")
 
@@ -125,6 +131,8 @@ _Project scaffolded using [charlike][] cli._
 [charlike]: https://github.com/tunnckocore/charlike
 [commitizen]: https://github.com/commitizen/cz-cli
 [dezalgo]: https://github.com/npm/dezalgo
+[hyperscript]: https://github.com/dominictarr/hyperscript
+[mich-h]: https://github.com/tunnckocore/mich-h
 [once]: https://github.com/isaacs/once
 [standard-version]: https://github.com/conventional-changelog/standard-version
 [verb-generate-readme]: https://github.com/verbose/verb-generate-readme
@@ -136,6 +144,8 @@ _Project scaffolded using [charlike][] cli._
 [charlike]: https://github.com/tunnckocore/charlike
 [commitizen]: https://github.com/commitizen/cz-cli
 [dezalgo]: https://github.com/npm/dezalgo
+[hyperscript]: https://github.com/dominictarr/hyperscript
+[mich-h]: https://github.com/tunnckocore/mich-h
 [once]: https://github.com/isaacs/once
 [standard-version]: https://github.com/conventional-changelog/standard-version
 [verb-generate-readme]: https://github.com/verbose/verb-generate-readme
