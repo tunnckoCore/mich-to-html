@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file. See [standa
 <a name="0.1.1"></a>
 ## 0.1.1 (2017-02-11)
 
-
+* fix changelog and initial publish
 
 
 
