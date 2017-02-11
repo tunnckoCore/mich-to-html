@@ -1,6 +1,6 @@
 {
   "name": "mich-to-html",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Tiny and naive implementation of rendering HAST-compliant virtual dom trees to HTML string, just in ~420 bytes.",
   "repository": "tunnckoCore/mich-to-html",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",

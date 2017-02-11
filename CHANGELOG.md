@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.5"></a>
+## [0.1.5](https://github.com/tunnckocore/mich-to-html/compare/v0.1.4...v0.1.5) (2017-02-11)
+
+
+### Bug Fixes
+
+* **rollup:** fix bundles ([defd069](https://github.com/tunnckocore/mich-to-html/commit/defd069))
+
+
+
 <a name="0.1.4"></a>
 ## [0.1.4](https://github.com/tunnckocore/mich-to-html/compare/v0.1.3...v0.1.4) (2017-02-11)
 
